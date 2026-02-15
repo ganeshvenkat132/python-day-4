@@ -32,7 +32,7 @@ for i in range(n):
         valid=valid+1
         criticalRisk=criticalRisk+[marks[i]]
 
-print("D =",D)
+print("Registered Digit(D)",D)
 
 print("    Low Risk =",lowRisk)
 print("    Medium Risk =",mediumRisk)
