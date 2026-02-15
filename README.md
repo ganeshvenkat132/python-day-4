@@ -1,32 +1,21 @@
-# Cyber Activity Risk Analyzer – Personalized Security Engine
+Cyber Activity Risk Analyzer – Personalized Security Engine
 
-## Student Details
 Roll Number: AP24110011591
 
-## Personalized Register Digit
-D Value: 1
+Register Digit (D): 1
 
-## Explanation of Filtering Logic
+Explanation:
 
-The last digit of my register number is **1**, therefore:
+The last digit of my register number is 1.
 
-D = 1 → ODD
+D = 1, which is an odd number.
 
-According to the assignment rules:
+According to the personalized security filter rules:
 
-• If D is EVEN → Remove Low Risk scores  
-• If D is ODD → Remove Critical Risk scores
+If D is EVEN → Low Risk scores are removed
+If D is ODD → Critical Risk scores are removed
 
-Since my D value is **odd**, the program removes all **Critical Risk**
-activity scores after categorization.
+Since my D value is odd, the program removes all Critical Risk scores
+after categorization.
 
 Low Risk, Medium Risk, and High Risk scores remain unchanged.
-
-## Program Features
-
-Accepts activity scores as input  
-Cleans invalid data (negative values)  
-Categorizes risk levels  
-Applies personalized filtering  
-Generates final security report
-
